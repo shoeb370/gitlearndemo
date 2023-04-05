@@ -1,0 +1,15 @@
+#initialize repo
+
+git init
+
+git add .
+
+git commit -m "add a message"
+
+git remote add origin add_github_links_without_quotations
+
+# push for self repo
+git push -u -f origin Head:main  
+
+#push for organisation repo
+git push -u -f origin master 
